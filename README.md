@@ -1,6 +1,10 @@
-# Site de Revisão — Ética, Cidadania, Empreendedorismo e Saúde Coletiva
+# Quiz de Lâminas Histológicas
 
-Site estático em HTML, CSS e JavaScript para estudar os principais conteúdos dos PDFs.
+Quiz estático em HTML, CSS e JavaScript. Funciona direto no navegador e pode ser hospedado no GitHub Pages.
+
+## Como usar localmente
+
+Abra o arquivo `index.html` no navegador.
 
 ## Como hospedar no GitHub Pages
 
@@ -9,24 +13,19 @@ Site estático em HTML, CSS e JavaScript para estudar os principais conteúdos d
    - `index.html`
    - `styles.css`
    - `script.js`
-3. Vá em **Settings > Pages**.
-4. Em **Build and deployment**, selecione:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Salve e aguarde o link aparecer.
+   - pasta `assets/`
+   - `.nojekyll`
+3. No GitHub, entre em **Settings > Pages**.
+4. Em **Build and deployment**, selecione **Deploy from a branch**.
+5. Escolha a branch `main` e a pasta `/root`.
+6. Salve. O GitHub vai gerar o link do site.
 
 ## Estrutura
 
-- Roteiro de estudo
-- Cidadania, dignidade e direitos fundamentais
-- Equidade, diversidade e determinantes sociais
-- Diagnóstico territorial
-- Planejamento, comunicação e avaliação
-- Empreendedorismo e inovação em saúde
-- Ética e marketing médico
-- Tabelas comparativas
-- Erros comuns
-- Dúvidas frequentes
-- Flashcards
-- Quiz interativo
+- Uma imagem por questão.
+- Questões embaralhadas a cada rodada.
+- Alternativas embaralhadas a cada questão.
+- Carcinomas aparecem como alternativas entre si.
+- Lâminas de pulmão usam opções com tuberculose, hemorragia e carcinoma de pulmão quando aplicável.
+- Lâminas renais colocam pielonefrite e inchaço renal como alternativas concorrentes.
+- Lâminas hepáticas colocam esteatose hepática e hepatite viral como alternativas concorrentes.
